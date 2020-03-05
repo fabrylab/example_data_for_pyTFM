@@ -1,0 +1,13 @@
+analysis_paramters
+sigma	0.1
+young	49000
+pixelsize	0.201
+window_size	20
+overlapp	19
+std_factor	15
+h	300
+edge_padding	0.1
+padding_cell_layer	0.1
+TFM_mode	finite_thickness
+FEM_mode	colony
+min_obj_size	1500

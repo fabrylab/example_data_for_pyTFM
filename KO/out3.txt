@@ -1,0 +1,33 @@
+analysis_paramters
+sigma	0.1
+young	49000.0
+pixelsize	0.201
+window_size	20.0
+overlapp	12.0
+std_factor	15
+h	300.0
+edge_padding	0.1
+padding_cell_layer	0.1
+TFM_mode	finite_thickness
+FEM_mode	colony
+min_obj_size	1500
+04	image	sum deformations	533.0	pixels
+04	0	area of colony	2.7e-09	m2
+04	0	cell number	9	
+04	0	center of object	[1055.08  978.78]	
+04	0	cv mean normal stress of colony	0.251	
+04	0	cv shear stress of colony	4.26	
+04	0	mean normal stress on colony	0.00404	
+04	0	shear stress on colony	0.000189	
+04	0	average magnitude line tension	0.00401		 small FEM grid 
+04	0	std line tension	0.000891	N/m
+04	0	average normal line tension	0.00395		 small FEM grid 
+04	0	std normal line tension	0.000912	
+04	0	average shear line tension	0.000503		 small FEM grid 
+04	0	std shear line tension	0.000468	
+04	0	average cell force	0.00212		 small FEM grid 
+04	0	average cell pressure	0.00406		 small FEM grid 
+04	0	average cell shear	0.000442		 small FEM grid 
+04	0	std cell force	0.00134	N
+04	0	std cell pressure	0.000442	N/m
+04	0	std cell shear	0.000287	N/m
