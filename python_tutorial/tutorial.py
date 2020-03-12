@@ -30,7 +30,7 @@ fig1, ax = show_quiver(u, v, cbar_str="deformations\n[pixels]")# plotting
 # important parameters:
 ps1 = 0.201 # pixel size of the image of the beads
 im1_shape = (1991, 2033) # dimensions of the image of the beads
-ps2 = ps1*np.mean(np.array(im1_shape) / np.array(u.shape)) # pixel size of of the deformation field
+ps2 = ps1 * np.mean(np.array(im1_shape) / np.array(u.shape)) # pixel size of of the deformation field
 young = 49000 # Young's modulus of the substrate
 sigma = 0.49 # Poisson's ratio of the substrate
 h = 300 # height of the substrate in µm, "infinite" is also accepted
