@@ -3,54 +3,63 @@ sigma	0.49
 young	49000.0
 pixelsize	0.201
 window_size	20.0
-overlapp	19.0
+overlap	18.0
 std_factor	15
 h	300.0
 edge_padding	0.1
-padding_cell_layer	0.05
+padding_cell_layer	0.2
+sigma_cells	0.5
 TFM_mode	finite_thickness
 FEM_mode	colony
+filter_size	3
+filter_type	gaussian
 min_obj_size	1500
-cv_pad	0
-03	0	area of colony	4.44e-09	m2
-03	0	cell number	13	
-03	0	center of object	[1088.12  815.75]	
-03	0	cv mean normal stress of colony	0.268	
-03	0	cv shear stress of colony	0.933	
-03	0	mean normal stress on colony	0.003	
-03	0	shear stress on colony	-0.000418	
-03	0	average magnitude line tension	0.00309		  
-03	0	std line tension	0.00088	N/m
-03	0	average normal line tension	0.00304		  
-03	0	std normal line tension	0.000844	
-03	0	average shear line tension	0.000441		  
-03	0	std shear line tension	0.000444	
-03	0	average cell force	0.00174	N	  
-03	0	average cell pressure	0.00303	N/m	  
-03	0	average cell shear	0.000454	N/m	  
-03	0	std cell force	0.000921	N
-03	0	std cell pressure	0.000632	N/m
-03	0	std cell shear	0.000356	N/m
-03	0	contractillity on colony	1.06e-06	
-03	0	strain energy on colony	6.18e-14
-10	0	area of colony	4.36e-09	m2	
+min_line_length	0
+03	0	area Cell Area	4.25e-09	m2
+03	0	cell number	11	
+03	0	center of object	[1107.49  818.52]	
+03	0	mean normal stress Cell Area	0.00347	N/m
+03	0	max normal stress Cell Area	0.00458	N/m
+03	0	max shear stress Cell Area	0.00111	N/m
+03	0	cv mean normal stress Cell Area	0.3	
+03	0	cv max normal stress Cell Area	0.386	
+03	0	cv max shear stress Cell Area	0.727	
+03	0	average magnitude line tension	0.00337	N/m	  
+03	0	std magnitude line tension	0.00101	
+03	0	average normal line tension	0.00326	N/m	  
+03	0	std normal line tension	0.000916	
+03	0	average shear line tension	0.000697	N/m	  
+03	0	std shear line tension	0.000692	
+03	0	average cell force	0.00169	N/m	  
+03	0	average cell pressure	0.00324	N/m	  
+03	0	average cell shear	0.000699	N/m	  
+03	0	std cell force	0.000877	
+03	0	std cell pressure	0.000403	
+03	0	std cell shear	0.000545	
+03	0	contractility	1.14e-06	N
+03	0	area Traction Area	9690.0	m2
+03	0	strain energy	8.14e-14	J
+10	0	area Cell Area	4.15e-09	m2
 10	0	cell number	12	
-10	0	center of object	[1206.53 1077.39]	
-10	0	cv mean normal stress of colony	0.239	
-10	0	cv shear stress of colony	0.764	
-10	0	mean normal stress on colony	0.00307	
-10	0	shear stress on colony	-0.000576	
-10	0	average magnitude line tension	0.00322		  
-10	0	std line tension	0.000862	N/m
-10	0	average normal line tension	0.00313		  
-10	0	std normal line tension	0.000819	
-10	0	average shear line tension	0.000583		  
-10	0	std shear line tension	0.000509	
-10	0	average cell force	0.00161	N	  
-10	0	average cell pressure	0.00313	N/m	  
-10	0	average cell shear	0.000596	N/m	  
-10	0	std cell force	0.000904	N
-10	0	std cell pressure	0.000492	N/m
-10	0	std cell shear	0.000399	N/m
-10	0	contractillity on colony	1.08e-06	
-10	0	strain energy on colony	5.52e-14	
+10	0	center of object	[1204.22 1070.09]	
+10	0	mean normal stress Cell Area	0.00352	N/m
+10	0	max normal stress Cell Area	0.00465	N/m
+10	0	max shear stress Cell Area	0.00113	N/m
+10	0	cv mean normal stress Cell Area	0.258	
+10	0	cv max normal stress Cell Area	0.344	
+10	0	cv max shear stress Cell Area	0.678	
+10	0	average magnitude line tension	0.00364	N/m	  
+10	0	std magnitude line tension	0.00105	
+10	0	average normal line tension	0.00351	N/m	  
+10	0	std normal line tension	0.000999	
+10	0	average shear line tension	0.000754	N/m	  
+10	0	std shear line tension	0.000662	
+10	0	average cell force	0.00196	N/m	  
+10	0	average cell pressure	0.00347	N/m	  
+10	0	average cell shear	0.000763	N/m	  
+10	0	std cell force	0.000932	
+10	0	std cell pressure	0.000521	
+10	0	std cell shear	0.00052	
+10	0	contractility	1.13e-06	N
+10	0	area Traction Area	9310.0	m2
+10	0	strain energy	7.24e-14	J

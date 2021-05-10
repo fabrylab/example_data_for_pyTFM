@@ -3,60 +3,63 @@ sigma	0.49
 young	49000.0
 pixelsize	0.201
 window_size	20.0
-overlapp	19.0
+overlap	18.0
 std_factor	15
 h	300.0
 edge_padding	0.1
-padding_cell_layer	0.05
+padding_cell_layer	0.2
+sigma_cells	0.5
 TFM_mode	finite_thickness
 FEM_mode	colony
+filter_size	3
+filter_type	gaussian
 min_obj_size	1500
-cv_pad	0
-04	image	sum deformations	32800.0	pixels
-04	0	sum deformations on colony	11600.0	
-04	0	sum traction forces on colony	2360000.0	
-04	0	area of colony	6.34e-09	m2
-04	0	cell number	8	
-04	0	center of object	[1053.28 1002.06]	
-04	0	cv mean normal stress of colony	0.279	
-04	0	cv shear stress of colony	6.14	
-04	0	mean normal stress on colony	0.00518	
-04	0	shear stress on colony	0.000134	
-04	0	average magnitude line tension	0.006		  
-04	0	std line tension	0.00109	N/m
-04	0	average normal line tension	0.00597		  
-04	0	std normal line tension	0.00107	
-04	0	average shear line tension	0.000482		  
-04	0	std shear line tension	0.000398	
-04	0	average cell force	0.00316	N	  
-04	0	average cell pressure	0.00588	N/m	  
-04	0	average cell shear	0.0005	N/m	  
-04	0	std cell force	0.00138	N
-04	0	std cell pressure	0.000789	N/m
-04	0	std cell shear	0.000239	N/m
-04	0	contractillity on colony	2.07e-06	
-04	0	strain energy on colony	2e-13	
-05	image	sum deformations	29600.0	pixels
-05	0	sum deformations on colony	7870.0	
-05	0	sum traction forces on colony	1680000.0	
-05	0	area of colony	4.97e-09	m2
-05	0	cell number	15	
-05	0	center of object	[1039.5   908.12]	
-05	0	cv mean normal stress of colony	0.208	
-05	0	cv shear stress of colony	1.67	
-05	0	mean normal stress on colony	0.00398	
-05	0	shear stress on colony	0.00025	
-05	0	average magnitude line tension	0.0042		  
-05	0	std line tension	0.00086	N/m
-05	0	average normal line tension	0.00416		  
-05	0	std normal line tension	0.000846	
-05	0	average shear line tension	0.000526		  
-05	0	std shear line tension	0.000366	
-05	0	average cell force	0.00233	N	  
-05	0	average cell pressure	0.00415	N/m	  
-05	0	average cell shear	0.000547	N/m	  
-05	0	std cell force	0.00092	N
-05	0	std cell pressure	0.000458	N/m
-05	0	std cell shear	0.000256	N/m
-05	0	contractillity on colony	1.4e-06	
-05	0	strain energy on colony	9.67e-14	
+min_line_length	0
+04	0	area Cell Area	6.3e-09	m2
+04	0	cell number	7	
+04	0	center of object	[1079.31 1015.57]	
+04	0	mean normal stress Cell Area	0.0057	N/m
+04	0	max normal stress Cell Area	0.00696	N/m
+04	0	max shear stress Cell Area	0.00126	N/m
+04	0	cv mean normal stress Cell Area	0.308	
+04	0	cv max normal stress Cell Area	0.267	
+04	0	cv max shear stress Cell Area	0.6	
+04	0	average magnitude line tension	0.00692	N/m	  
+04	0	std magnitude line tension	0.0012	
+04	0	average normal line tension	0.00686	N/m	  
+04	0	std normal line tension	0.00118	
+04	0	average shear line tension	0.000675	N/m	  
+04	0	std shear line tension	0.000591	
+04	0	average cell force	0.00446	N/m	  
+04	0	average cell pressure	0.00693	N/m	  
+04	0	average cell shear	0.000723	N/m	  
+04	0	std cell force	0.000912	
+04	0	std cell pressure	0.000585	
+04	0	std cell shear	0.000317	
+04	0	contractility	2.13e-06	N
+04	0	area Traction Area	12600.0	m2
+04	0	strain energy	2.46e-13	J
+05	0	area Cell Area	4.94e-09	m2
+05	0	cell number	12	
+05	0	center of object	[1077.01  881.45]	
+05	0	mean normal stress Cell Area	0.0044	N/m
+05	0	max normal stress Cell Area	0.00536	N/m
+05	0	max shear stress Cell Area	0.000957	N/m
+05	0	cv mean normal stress Cell Area	0.229	
+05	0	cv max normal stress Cell Area	0.235	
+05	0	cv max shear stress Cell Area	0.527	
+05	0	average magnitude line tension	0.00474	N/m	  
+05	0	std magnitude line tension	0.00111	
+05	0	average normal line tension	0.00468	N/m	  
+05	0	std normal line tension	0.00109	
+05	0	average shear line tension	0.000639	N/m	  
+05	0	std shear line tension	0.000432	
+05	0	average cell force	0.00253	N/m	  
+05	0	average cell pressure	0.00478	N/m	  
+05	0	average cell shear	0.000658	N/m	  
+05	0	std cell force	0.00103	
+05	0	std cell pressure	0.000605	
+05	0	std cell shear	0.000238	
+05	0	contractility	1.44e-06	N
+05	0	area Traction Area	11300.0	m2
+05	0	strain energy	1.14e-13	J
